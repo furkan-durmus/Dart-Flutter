@@ -5,14 +5,14 @@ void main() {
 
   var sum = (a, b) => a + b;
 
-  void devide(sum) => print(sum(13, 9) / 2);
+  void devide(a, b) => print(sum(a, b) / 2);
   /*devide(sum) {
     var a = sum(13, 9);
     print(a / 2);
   }
 */
 
-  devide(sum);
+  devide(3, 41);
 
   List shopping = ["a", "b", "c"];
   shopping.forEach((element) {
